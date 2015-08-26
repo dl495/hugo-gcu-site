@@ -1,0 +1,73 @@
+/* ==== Fonts
+=================== */
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700|Raleway);
+/* ==== Media Queries  ==== */
+
+  .html-mobile-bg {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    min-width: 110%;
+    min-height: 105%;
+    background: url(../img/bg.jpg) no-repeat center bottom; }
+
+  * {
+    margin: 0;
+    padding: 0;
+    transition: .4s; }
+
+  body {
+    margin: 0 auto;
+    font-family: "Raleway", sans-serif; }
+
+  html {
+    height: 100%; }
+
+  header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); }
+
+  .title {
+    padding: 1.5em; }
+
+  h1 {
+    font-family: Bitter , Serif;
+    font-size: 2.5em;
+    color: white; }
+
+  h2 {
+    font-size: 1.7em;
+    color: #a6301f}
+
+  ul {
+    padding: 0;
+    margin: 0;
+     }
+
+  li {
+    display: inline-block;
+    padding: .8em;
+    margin: 0 0 0 0; }
+    li a {
+      color: white; }
+
+  main {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 0 auto;
+    padding: 1.2em 2em 1em 2em;
+    max-width: 39em; }
+    main h2 {
+      padding: 1em 0 0 0; }
+    main p {
+      font-family: "Raleway", sans-serif;
+      line-height: 1.3em;
+      padding: 0.5em 0 1em 0;
+      margin: 0; }
+/* ==== SMALL  ==== */
+/* ==== MEDIUM  ==== */
+/* ==== LARGE  ==== */
+@media only screen and (min-width: 64.063em) {
+  .html-mobile-bg {
+    background-size: cover;
+  }
+}

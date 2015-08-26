@@ -1,0 +1,19 @@
+---
+baseURL: "girtoncu.soc.srcf.net"
+languageCode: "en-us"
+title: "Girton College Christian Union"
+params:
+  CollegeName: "Girton College"
+  CollegeShortName: "Girton"
+  CollegeInitials: "GCU"
+  City: "Cambridge"
+  Rep1Name1: "David"
+  Rep1Name2: "Lawrence"
+  Rep2Name1: "Siobhan"
+  Rep2Name2: "Eastman"
+  RepEmail1: "dl495@cam.ac.uk"
+  RepEmail2: "se353@cam.ac.uk"
+  JointRepEmail: "girtoncollegecu@gmail.com"
+  FacebookGroupURL: "https://www.facebook.com/groups/girtoncollegecu"
+  Colour: "#0d731d"
+---

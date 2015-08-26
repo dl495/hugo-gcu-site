@@ -1,0 +1,7 @@
+{{if .Site.Params.Rep2Name1 }}
+<p>Every college has 2 reps, who run the CU group in their college. In {{ .Site.Params.CollegeName }} the reps this year are {{ .Site.Params.Rep1Name1 }} {{ .Site.Params.Rep1Name2 }} and {{ .Site.Params.Rep2Name1 }} {{ .Site.Params.Rep2Name2 }}. {{ partial "email.html" . }}</p>
+{{ end }}
+
+{{if not .Site.Params.Rep2Name1 }}
+<p>College CUs are run by one or two reps. In {{ .Site.Params.CollegeName }} our CU rep is {{ .Site.Params.Rep1Name1 }} {{ .Site.Params.Rep1Name2 }}. {{ partial "email.html" . }}</p>
+{{ end }}
