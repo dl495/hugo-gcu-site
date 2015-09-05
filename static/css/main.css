@@ -16,6 +16,14 @@
     padding: 0;
     transition: .4s; }
 
+  a:link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
   body {
     margin: 0 auto;
     font-family: "Raleway", sans-serif; }
@@ -37,19 +45,68 @@
 
   h2 {
     font-size: 1.7em;
-    color: #a6301f}
+    color: #b83421}
+
+
+
+/*Stuff for the dropdown menus*/
 
   ul {
     padding: 0;
     margin: 0;
+    position: relative;
      }
 
   li {
     display: inline-block;
-    padding: .8em;
+    padding: 12px;
     margin: 0 0 0 0; }
     li a {
-      color: white; }
+      color: white;
+    }
+    li a:hover {
+      text-decoration: none;
+    }
+
+
+      nav ul ul {
+        display: none;
+      }
+
+      nav ul li:hover{
+        background-color: #084612;
+      }
+
+      nav ul li:hover > ul {
+        display: block;
+      }
+
+      nav ul li:hover a {
+        color: #fff;
+      }
+
+      nav ul ul {
+        background-color: #095314;
+        position: absolute;
+        top: 100%;
+      }
+
+      nav ul ul li {
+		    float: none;
+        display: block;
+		    position: relative;
+      }
+
+      nav ul ul li a {
+        padding: 12px 40px;
+			  color: #fff;
+		  }
+
+      nav ul ul li:hover {
+				background-color: #084612;
+			}
+
+
 
   main {
     background-color: rgba(255, 255, 255, 0.85);
