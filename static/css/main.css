@@ -55,6 +55,7 @@
     padding: 0;
     margin: 0;
     position: relative;
+    color: #fff
      }
 
   li {
@@ -95,10 +96,11 @@
 		    float: none;
         display: block;
 		    position: relative;
+        text-align: left;
       }
 
       nav ul ul li a {
-        padding: 12px 40px;
+        padding: 12px 10px;
 			  color: #fff;
 		  }
 

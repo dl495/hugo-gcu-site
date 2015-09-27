@@ -1,7 +1,0 @@
-{{with .Site.Params.JointRepEmail}}
-Send an email to <a href="mailto:{{.}}">{{.}}</a> and one of us will get in touch. We’d love to answer any questions you have, or just say hello, so please do send us an email!
-{{end}}
-
-{{if not .Site.Params.JointRepEmail}}
-Send an email to <a href="mailto:{{.Site.Params.RepEmail1}}">{{.Site.Params.Rep1Name1}}</a> {{if .Site.Params.Rep2Name1 }}or <a href="mailto:{{.Site.Params.RepEmail2}}">{{.Site.Params.Rep2Name1}}</a> (it doesn't matter which one!) {{ end }}and say hi. We'd love to answer any questions you have, or just say hello, so please do send us an email!
-{{end}}
